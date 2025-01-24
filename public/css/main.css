@@ -1,3 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Faustina";
+  font-weight: 400;
+  font-size: 20px;
+}
 
+.title {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "DM Serif Text";
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: 500;
+}
+
+table {
+  font-size: 18px;
+}
+
+.nav-container {
+  background-color: #e0d3b6;
+}
+
+.navbar-menu {
+  background-color: inherit;
+  box-shadow: none;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 1em;
+}
+.navbar a {
+  vertical-align: middle;
+  color: #333;
+}
+.navbar a:hover {
+  background-color: inherit;
+  color: black;
+}
+.navbar a:after {
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0;
+  content: ".";
+  color: transparent;
+  background: #857d6c;
+  height: 2px;
+}
+.navbar a:hover:after {
+  width: 100%;
+}
+
+.lang-button {
+  background-color: inherit;
+  border: 1px solid black;
+}
+.lang-button:hover {
+  border: 1px solid #857d6c;
+}
+
+#logos {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1rem;
+  margin-top: 2.5rem;
+}
+#logos i {
+  color: #363636;
+}
+
+.fa-brands:hover {
+  color: #555 !important;
+}
+
+a {
+  color: #2B5598;
+}
+a:hover {
+  color: #7690A7;
+}
+
+.titlebox {
+  margin-bottom: 2rem;
+}
 
 /*# sourceMappingURL=main.css.map */

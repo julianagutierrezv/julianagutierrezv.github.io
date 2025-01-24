@@ -1,0 +1,36 @@
+- degree:
+    en: PhD in Philosophy
+    es: Doctorado en Filosofía
+  university: Universidad de Los Andes
+  faculty: Departamento de Filosofía
+  thesis:
+    title: "Title."
+    supervisors:
+      - Manuela Fernández Pinto
+    examiners: Sabina Leonelli, Kristina Rolin, Mauricio Nieto, Allison Wolf
+    qualification: Summa Cum Laude
+  dates: 08.2020 - 01.2025
+
+- degree:
+    en: Masters in Philosophy
+    es: Maestría en Filosofía
+  university: Universidad del Rosario
+  dates: 2016 - 08.2020
+  faculty: Escuela de Ciencias Humanas
+  thesis:
+    title: "Title"
+    supervisors:
+      - Carlos Alberto Cardona Suárez
+    qualification: Tesis meritoria
+
+- degree:
+    en: Philosophy
+    es: Filósofa
+  dates: 07.2011 - 03.2016
+  university: Universidad del Rosario
+  faculty: Escuela de Ciencias Humanas
+  thesis:
+    title: "Argumentos duales"
+    supervisors:
+      - Carlos Alberto Cardona Suárez
+    qualification: Meritoria

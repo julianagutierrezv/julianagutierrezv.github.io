@@ -1,0 +1,13 @@
+- date: 2023-12-05
+  title: "[Título]"
+  conference: "[Conferencia]"
+  institution: "[Institución(es) organizadora(s)]"
+  organizer: "[Opcional. Lo uso si hay una sociedad organizadora más la institución]"
+  url: "[Web (opcional, lo uso para charlas online)]"
+
+- date: 2023-11-06
+  title: ""
+  conference: ""
+  institution: ""
+  city: ""
+  country: ""

@@ -1,0 +1,14 @@
+email: jgutierrezv@uniandes.edu.co
+
+main:
+  - text: ResearchGate
+    url: https://www.researchgate.net/profile/Juliana-Gutierrez-Valderrama
+    icon: fa-brands fa-researchgate
+
+  - text: Bluesky
+    url: https://bsky.app/profile/jgutierrez.bsky.social
+    icon: "fa-brands fa-bluesky"
+
+  - text: ORCID
+    icon: fa-brands fa-orcid
+    url: https://orcid.org/0000-0002-5433-9080

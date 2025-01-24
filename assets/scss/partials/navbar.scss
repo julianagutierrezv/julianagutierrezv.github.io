@@ -1,0 +1,53 @@
+.nav-container {
+  background-color: #e0d3b6;
+}
+
+.navbar-menu {
+  background-color: inherit;
+  box-shadow: none;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: inherit;
+  font-weight: 500;
+  font-size: 1em;
+
+
+  a {
+    vertical-align: middle;
+    color: #333;
+
+    &:hover {
+      background-color: inherit;
+      color: black;
+    }
+
+    &:after {
+      transition: all 0.5s;
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0;
+      content: '.';
+      color: transparent;
+      background: #857d6c;
+      height: 2px;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+  }
+}
+
+.lang-button {
+  background-color: inherit;
+  border: 1px solid black;
+
+  &:hover {
+    border: 1px solid #857d6c
+  }
+}
