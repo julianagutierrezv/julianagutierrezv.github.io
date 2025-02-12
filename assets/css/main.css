@@ -24,14 +24,6 @@ table {
   font-size: 18px;
 }
 
-.lang-button {
-  background-color: inherit;
-  border: 1px solid black;
-}
-.lang-button:hover {
-  border: 1px solid #857d6c;
-}
-
 html {
   background-color: #ffffff;
 }
@@ -44,7 +36,7 @@ a {
   color: #4f2b98;
 }
 a:hover {
-  color: #b5692a;
+  color: #9885bd;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -22,13 +22,13 @@
       </div>
       {{- end }}
     </div>
-    <div class="navbar-end flex">
+    <div class="flex">
       <div class="flex mx-6 min-w-18 justify-between">
         {{ partial "logos" . }} {{ range $.Translations }}
       </div>
-      <div class="navbar-item">
+      <div class="">
         <a
-          class="border-1 rounded-sm p-1 text-sm ml-2"
+          class="border-1 rounded-sm px-2 py-1 text-sm ml-2 font-sans"
           title="{{ .Language.LanguageName }}"
           href="{{ .Permalink }}"
         >
