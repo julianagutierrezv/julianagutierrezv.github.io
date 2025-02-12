@@ -2,13 +2,13 @@
 body {
   font-family: "Faustina";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .title {
   font-size: 60px;
-  font-weight: 400;
-  font-family: "DM Serif Text";
+  font-weight: 600;
+  font-family: "Faustina";
   margin-bottom: 2rem;
 }
 
@@ -25,7 +25,7 @@ table {
 }
 
 .nav-container {
-  background-color: #e0d3b6;
+  background-color: #adadca;
 }
 
 .navbar-menu {
@@ -86,15 +86,19 @@ table {
   color: #555 !important;
 }
 
-a {
-  color: #2B5598;
-}
-a:hover {
-  color: #7690A7;
+html {
+  background-color: #ffffff;
 }
 
-.titlebox {
-  margin-bottom: 2rem;
+hr {
+  background-color: #adadca;
+}
+
+a {
+  color: #4f2b98;
+}
+a:hover {
+  color: #b5692a;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,9 +3,16 @@
 @use "partials/logos";
 
 // Main colors
-$primary: #2B5598;
-$accent: #7690A7;
+$primary: #4f2b98;
+$accent: #b5692a;
 
+html {
+  background-color: #ffffff;
+}
+
+hr {
+  background-color: #adadca;
+}
 
 a {
   color: $primary;
@@ -13,9 +20,4 @@ a {
   &:hover {
     color: $accent;
   }
-}
-
-
-.titlebox {
-  margin-bottom: 2rem;
 }

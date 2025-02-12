@@ -4,12 +4,8 @@ weight: 2
 title: Curriculum Vitae
 ---
 
-{{< cv/employment >}}
-
----
-
 {{< cv/education >}}
 
----
+{{< cv/employment >}}
 
 {{< cv/service >}}

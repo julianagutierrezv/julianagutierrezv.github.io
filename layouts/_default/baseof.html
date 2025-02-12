@@ -1,57 +1,40 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <title>{{ block "pagetitle" . }}{{ .Page.Title }} - Juan R. Loaiza {{ end }} </title>
-    <script src="https://kit.fontawesome.com/56ed2b6624.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<html data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {{ block "pagetitle" . }}{{ .Page.Title }} - Juan R. Loaiza {{ end }}
+    </title>
+    <script
+      src="https://kit.fontawesome.com/56ed2b6624.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
     {{ $style := resources.Get "css/main.css" }}
-    <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
 
+    <link rel="icon" type="image/png" href="#" />
 
-    <link rel="icon" type="image/png" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+  </head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-
-</head>
-
-<body>
-
-    {{ partial "navbar" . }}
-
-    <div class="container mb-6">
-        <div class="columns">
-            <div class="column is-hidden-mobile"></div>
-            <div class="column is-three-quarters">
-
-                {{ with .Params.skipHeader }}
-                <div class="mb-6"></div>
-                {{ else }}
-                {{ partial "header" . }}
-                {{ end }}
-
-
-                <div class="content container is-fluid">
-
-                    {{ block "title" .}}
-                    <h1 class="has-text-centered">{{ .Title }}</h1>
-                    {{ end }}
-
-                    {{ block "main" . }}
-                    <!-- The part of the page that begins to differ between templates -->
-                    {{ end }}
-
-                </div>
-                <hr />
-                {{ partial "footer" . }}
-            </div>
-            <div class="column"></div>
-        </div>
+  <body>
+    <div class="px-6 py-3 grid grid-cols-10">
+      <div class="col-start-2 col-span-8">{{ partial "navbar" . }}</div>
+      <div class="col-start-2 col-span-8">{{ partial "header" . }}</div>
+      <div class="col-start-2 col-span-8 content mb-20">
+        {{ block "title" .}}
+        <h1 class="text-4xl mb-4">{{ .Title }}</h1>
+        {{ end }} {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+        {{ end }}
+      </div>
     </div>
-</body>
-
+    <div class="">{{ partial "footer" . }}</div>
+  </body>
 </html>

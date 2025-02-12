@@ -1,7 +1,25 @@
 - position:
-    en: [Cargo EN]
-    es: [Cargo ES]
-  start_date: "03.2023"
-  institution: [Institución]
-  faculty: [Facultad]
-  info: [INFO]
+    en: Teaching assistant
+    es: Tutora académica
+  start_date: 2022
+  end_date: 2022
+  institution: Universidad de los Andes
+  info: |
+    Curso: Estudios Culturales y América Latina (2022-2)<br>  
+    Profesor principal: Juan Ricardo Aparicio
+
+- position:
+    en: Research assistant
+    es: Asistente de Investigación
+  start_date: 2016
+  end_date: 2019
+  institution: Universidad del Rosario
+  faculty: Escuela de Ciencias Humanas
+
+- position:
+    en: Adjunct lecturer
+    es: Profesora de hora cátedra
+  start_date: 2018
+  end_date: 2022
+  institution: Universidad del Rosario
+  faculty: Escuela de Ciencias Humanas
