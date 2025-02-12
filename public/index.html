@@ -27,7 +27,7 @@
   <body>
     <div class="px-6 py-3 grid grid-cols-10">
       <div class="col-start-2 col-span-8"><nav class="navbar mt-4 mb-3" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
+  <div class="">
     <a
       role="button"
       class="navbar-burger"
@@ -40,30 +40,42 @@
     </a>
   </div>
   <div class="flex justify-between" id="navMenu">
-    <div class="navbar-start flex">
-      <a class="mr-4" href="/">
-        Inicio
-      </a>
-      <a class="mr-4" href="/cv/">
-        Curriculum Vitae
-      </a>
-      <a class="mr-4" href="/publications/">
-        Publicaciones
-      </a>
-      <a class="mr-4" href="/talks/">
-        Charlas
-      </a>
+    <div class="flex">
+      <div class="group relative flex mr-4">
+        <a class="mb-2" href="/"> Inicio</a>
+        <span
+          class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
+        ></span>
+      </div>
+      <div class="group relative flex mr-4">
+        <a class="mb-2" href="/cv/"> Curriculum Vitae</a>
+        <span
+          class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
+        ></span>
+      </div>
+      <div class="group relative flex mr-4">
+        <a class="mb-2" href="/publications/"> Publicaciones</a>
+        <span
+          class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
+        ></span>
+      </div>
+      <div class="group relative flex mr-4">
+        <a class="mb-2" href="/talks/"> Charlas</a>
+        <span
+          class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
+        ></span>
+      </div>
     </div>
     <div class="navbar-end flex">
       <div class="flex mx-6 min-w-18 justify-between">
-      
-<a class=" navbar-item " href="https://www.researchgate.net/profile/Juliana-Gutierrez-Valderrama" rel="me"><i class="logo fa-brands fa-researchgate"></i></a>
+        
+<a class="hover:text-purple-800" href="https://www.researchgate.net/profile/Juliana-Gutierrez-Valderrama" rel="me"><i class="logo fa-brands fa-researchgate"></i></a>
 
-<a class=" navbar-item " href="https://bsky.app/profile/jgutierrez.bsky.social" rel="me"><i class="logo fa-brands fa-bluesky"></i></a>
+<a class="hover:text-purple-800" href="https://bsky.app/profile/jgutierrez.bsky.social" rel="me"><i class="logo fa-brands fa-bluesky"></i></a>
 
-<a class=" navbar-item " href="https://orcid.org/0000-0002-5433-9080" rel="me"><i class="logo fa-brands fa-orcid"></i></a>
+<a class="hover:text-purple-800" href="https://orcid.org/0000-0002-5433-9080" rel="me"><i class="logo fa-brands fa-orcid"></i></a>
  
-    </div>
+      </div>
       <div class="navbar-item">
         <a
           class="border-1 rounded-sm p-1 text-sm ml-2"

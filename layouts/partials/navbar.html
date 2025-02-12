@@ -1,5 +1,5 @@
 <nav class="navbar mt-4 mb-3" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
+  <div class="">
     <a
       role="button"
       class="navbar-burger"
@@ -12,18 +12,20 @@
     </a>
   </div>
   <div class="flex justify-between" id="navMenu">
-    <div class="navbar-start flex">
+    <div class="flex">
       {{- range site.Menus.main }}
-      <a class="mr-4" href="{{ .URL }}">
-        {{ .Name }} {{- with .Page }} {{- with .Params.version -}} ({{ . }}) {{-
-        end }} {{- end }}
-      </a>
+      <div class="group relative flex mr-4">
+        <a class="mb-2" href="{{ .URL }}"> {{ .Name }}</a>
+        <span
+          class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
+        ></span>
+      </div>
       {{- end }}
     </div>
     <div class="navbar-end flex">
       <div class="flex mx-6 min-w-18 justify-between">
-      {{ partial "logos" . }} {{ range $.Translations }}
-    </div>
+        {{ partial "logos" . }} {{ range $.Translations }}
+      </div>
       <div class="navbar-item">
         <a
           class="border-1 rounded-sm p-1 text-sm ml-2"
