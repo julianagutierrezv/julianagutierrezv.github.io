@@ -7,10 +7,8 @@ education:
   title: "Educación"
   thesis:
     title: "Tesis"
-    supervisors:
-      one: "Supervisor"
-      other: "Supervisores"
-    examiners: "Examinadores"
+    supervisors: "Supervisión"
+    examiners: "Comisión examinadora"
     qualification: "Calificación"
 
 employment: "Experiencia académica"
