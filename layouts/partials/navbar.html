@@ -2,7 +2,7 @@
   <div class="flex justify-end">
     <a
       role="button"
-      class="md:hidden opacity-50"
+      class="md:hidden"
       id="navbar-switch"
       aria-label="menu"
       aria-expanded="false"
@@ -45,7 +45,7 @@
     var burger = document.querySelector("#navbar-switch");
     var menu = document.querySelector("#nav-menu");
     burger.addEventListener("click", function () {
-      burger.classList.toggle("opacity-100");
+      burger.classList.toggle("opacity-50");
       menu.classList.toggle("hidden");
     });
   })();
