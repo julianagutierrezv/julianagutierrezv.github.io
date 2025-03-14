@@ -1,34 +1,33 @@
 <nav class="navbar mt-4 mb-3" role="navigation" aria-label="main navigation">
-  <div class="">
+  <div class="flex justify-end">
     <a
       role="button"
-      class="navbar-burger"
+      class="md:hidden opacity-50"
+      id="navbar-switch"
       aria-label="menu"
       aria-expanded="false"
     >
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
     </a>
   </div>
-  <div class="flex justify-between" id="navMenu">
-    <div class="flex">
+  <div class="hidden md:flex md:justify-between" id="nav-menu">
+    <div class="md:flex mb-4 md:mb-0">
       {{- range site.Menus.main }}
-      <div class="group relative flex mr-4">
-        <a class="mb-2" href="{{ .URL }}"> {{ .Name }}</a>
+      <div class="group relative flex md:mr-4">
+        <a class="mb-2 mx-auto md:mx-0" href="{{ .URL }}"> {{ .Name }}</a>
         <span
           class="absolute w-full bottom-0 h-0.5 bg-purple-500 transition-all duration-300 origin-center ease-in-out scale-x-0 group-hover:scale-x-100"
         ></span>
       </div>
       {{- end }}
     </div>
-    <div class="flex">
+    <div class="flex justify-center">
       <div class="flex mx-6 min-w-18 justify-between">
         {{ partial "logos" . }} {{ range $.Translations }}
       </div>
       <div class="">
         <a
-          class="border-1 rounded-sm px-2 py-1 text-sm ml-2 font-sans"
+          class="border-1 rounded-sm px-2 py-1 text-sm md:ml-2 font-sans"
           title="{{ .Language.LanguageName }}"
           href="{{ .Permalink }}"
         >
@@ -43,11 +42,11 @@
 
 <script>
   (function () {
-    var burger = document.querySelector(".navbar-burger");
-    var menu = document.querySelector(".navbar-menu");
+    var burger = document.querySelector("#navbar-switch");
+    var menu = document.querySelector("#nav-menu");
     burger.addEventListener("click", function () {
-      burger.classList.toggle("is-active");
-      menu.classList.toggle("is-active");
+      burger.classList.toggle("opacity-100");
+      menu.classList.toggle("hidden");
     });
   })();
 </script>
