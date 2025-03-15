@@ -9,7 +9,7 @@ append .year }} {{ end }} {{ $years := uniq $years }} {{ range $year := $years
 <div class="mb-6">
   {{.authors}} <span class="font-semibold"> {{ .title | markdownify }}. </span>
   {{.reference | markdownify }}. {{ if .doi }}
-  <a href="http://doi.org/{{ .doi }}"> {{.doi}} </a>
+  <a href="http://doi.org/{{ .doi }}"> doi: {{.doi}} </a>
   {{ else if .url }}
   <a href="{{ .url }}">{{ .url }}</a>
   {{ end }} {{ if .openaccess }}<i

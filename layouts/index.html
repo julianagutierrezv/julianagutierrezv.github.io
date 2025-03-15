@@ -2,11 +2,11 @@
 "title" }} &puncsp; {{ end }} {{ define "main" }}
 
 <div class="lg:grid grid-cols-4 gap-x-12">
-  <div>
+  <div class="col-span-1">
     {{ partial "academicphoto"}}
-    {{ partial "contact" }}
   </div>
-  <div class="col-span-3">{{ .Content }}
+  <div class="col-span-3">
+    {{ .Content }}
     <div class="md:flex gap-x-10 mt-12 justify-around">
       <div class="mb-3">
         <h5 class="font-bold">{{ i18n "specialization" }}</h5>
