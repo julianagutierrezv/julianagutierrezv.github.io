@@ -1,31 +1,37 @@
 {{ define "pagetitle" }} Juliana Gutiérrez Valderrama {{ end }} {{ define
 "title" }} &puncsp; {{ end }} {{ define "main" }}
 
-<div class="lg:grid grid-cols-4 gap-x-8">
-  <div class="col-span-3">{{ .Content }}</div>
-
+<div class="lg:grid grid-cols-4 gap-x-12">
   <div>
-    <div class="mb-3">
-      <h5 class="font-bold">{{ i18n "specialization" }}</h5>
-      <ul class="list-disc ml-5">
-        {{ $data := index site.Data.areas site.Language.Lang }} 
-        {{ range $data.specialization }}
-          <li>{{ . }}</li>
-          {{ end }}
-      </ul>
-    </div>
-    <div class="mb-8">
-      <h5 class="font-bold">{{ i18n "competence" }}</h5>
-      <ul class="list-disc ml-5">
-        {{ $data := index site.Data.areas site.Language.Lang }} {{ range
-        $data.competence }}
-        <li>{{ . }}</li>
-        {{ end }}
-      </ul>
-    </div>
-
+    {{ partial "academicphoto"}}
     {{ partial "contact" }}
   </div>
+  <div class="col-span-3">{{ .Content }}
+    <div class="md:flex gap-x-10 mt-12 justify-around">
+      <div class="mb-3">
+        <h5 class="font-bold">{{ i18n "specialization" }}</h5>
+        <ul class="list-disc ml-5">
+          {{ $data := index site.Data.areas site.Language.Lang }}
+          {{ range $data.specialization }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="mb-8">
+        <h5 class="font-bold">{{ i18n "competence" }}</h5>
+        <ul class="list-disc ml-5">
+          {{ $data := index site.Data.areas site.Language.Lang }} {{ range
+          $data.competence }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+
 </div>
 
 {{ end }}

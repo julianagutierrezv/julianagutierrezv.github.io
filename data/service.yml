@@ -1,7 +1,16 @@
 - position:
-    en: [Cargo EN]
-    es: [Cargo ES]
-  institution: [Institución]
-  start_date: "10.2022"
-  end_date: "08.2021"
-  city: "[Ciudad]"
+    en: Editorial assistant
+    es: Asistente editorial
+  institution: Facultad de Ciencias Sociales de la Universidad de los Andes
+  start_date: 2022
+  end_date: 2022
+  info: 'Revista de divulgación _La Imprenta_, Número 2 : “La ciencia que necesita Colombia”'
+
+- position:
+    en: Student representative - Ph.D. in Philosophy program
+    es: Representante estudiantil del doctorado en Filosofía
+  institution: Universidad de los Andes
+  start_date: 2022
+  end_date: 2022
+
+- position: 

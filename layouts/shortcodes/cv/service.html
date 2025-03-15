@@ -1,7 +1,7 @@
 <h2 class="text-2xl mb-2">{{ i18n "service" }}</h2>
 
 {{ range site.Data.service }}
-<div class="md:grid grid-cols-8">
+<div class="md:grid grid-cols-8 mb-6">
   <div class="col-span-2 lg:col-span-1">
     {{ .start_date }}{{ if eq .start_date .end_date }}{{ else if .end_date }} -
     {{ .end_date }}{{ else }} - {{ i18n "present" }}{{ end}}
@@ -12,7 +12,7 @@
       {{index .position site.Language.Lang }}
     </h4>
     {{ .institution }}<br />
-    {{ .city }} {{ .info }}
+    {{ .city }} {{ .info | markdownify }}
   </div>
 </div>
 {{ end }}

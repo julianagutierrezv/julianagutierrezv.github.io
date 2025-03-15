@@ -1,3 +1,5 @@
-<h3 class="font-bold">{{ i18n "contact" }}</h1>
-{{ $email := site.Data.contact.email }} {{ i18n "email" }}:
+<div class="my-6">
+<h3 class="font-bold">{{ i18n "email" }}:</h3>
+{{ $email := site.Data.contact.email }} 
 <a href="mailto:{{ $email }}">{{ $email }}</a>
+</div>

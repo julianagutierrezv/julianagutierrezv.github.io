@@ -12,3 +12,7 @@ main:
   - text: ORCID
     icon: fa-brands fa-orcid
     url: https://orcid.org/0000-0002-5433-9080
+
+  - text: Google Scholar
+    icon: fa-brands fa-google-scholar
+    url: https://scholar.google.com/citations?user=pTUn-McAAAAJ&hl=es
