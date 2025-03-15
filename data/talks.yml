@@ -1,13 +1,65 @@
-- date: 2023-12-05
-  title: "[Título]"
-  conference: "[Conferencia]"
-  institution: "[Institución(es) organizadora(s)]"
-  organizer: "[Opcional. Lo uso si hay una sociedad organizadora más la institución]"
-  url: "[Web (opcional, lo uso para charlas online)]"
+- date: 2023-06-16
+  title: "The Need for a Geographically Situated Approach to Diversity in Science"
+  conference: "Workshop - Promises and challenges of epistemic diversity in knowledge production practices"
+  institution: "Universiteit Utrecht"
+  city: "Utrecht"
+  country: "Netherlands"
 
-- date: 2023-11-06
-  title: ""
-  conference: ""
-  institution: ""
-  city: ""
-  country: ""
+- date: 2022-11-16
+  title: "Ciencia, diversidad y desacuerdo"
+  conference: "VIII Congreso Colombiano de Filosofía - Simposio Controversias Científicas"
+  institution: "Universidad de Nariño"
+  city: "Pasto"
+  country: "Colombia"
+
+- date: 2022-11-10
+  title: "Science and Diversity: Introducing the Geographical Dimension (poster)"
+  conference: "Philosophy of Science Association 28th Biennial Meeting"
+  institution: "Philosophy of Science Association"
+  city: "Pittsburgh"
+  country: "United States"
+
+- date: 2021-10-18
+  title: " Centros y periferias: los límites de la noción de diversidad en la filosofía de la ciencia"
+  conference: "V Congreso Nacional de Doctorandos en Filosofía"
+  institution: "Pontificia Universidad Católica de Chile"
+  city: Online
+
+- date: 2018-08-15
+  title: "La controversia Hering-Helmholtz y estilos de razonamiento" 
+  conference: "VII Congreso Colombiano de Filosofía - Simposio Controversias Científicas"
+  institution: "Universidad Industrial de Santander"
+  organizer: "Sociedad Colombiana de Filosofía"
+  city: "Bucaramanga"
+  country: "Colombia"
+
+- date: 2018-06-11
+  title: "La controversia Hering-Helmholtz y estilos de razonamiento"
+  conference: "XI Encuentro de la Asociación de Filosofía e Historia de la ciencia del Cono Sur (AFHIC)"
+  institution: "Asociación de Filosofía e Historia de la Ciencia del Cono Sur"
+  city: "Buenos Aires"
+  country: "Argentina"
+
+- date: 2018-05-16
+  title: "La controversia Hering-Helmholtz y estilos de razoamiento"
+  conference: "V Congreso de la Asociación Latinoamericana de Filosofía Analítica & V Congreso Colombiano de Lógica, Epistemología y Filosofía de la Ciencia"
+  institution: "ALFAn"
+  organizer: "PHILOGICA"
+  city: "Villa de Leyva"
+  country: "Colombia"
+
+- date: 2016-09-12
+  title: "Innatismo vs Empirismo en el siglo XIX y los estudios sobre la visión del color"
+  conference: "X Encuentro de la Asociación de Filosofía e Historia de la Ciencia del Cono Sur (AFHIC)"
+  institution: "Asociación de Filosofía e Historia de la Ciencia del Cono Sur"
+  city: "Sao Paulo"
+  country: "Brasil"
+
+- date: 2016-08-10
+  title: "Innatismo vs Empirismo en el siglo XIX y los estudios sobre la visión del color"
+  conference: "VI Congreso Colombiano de Filosofía"
+  institution: "Universidad del Norte"
+  organizer: "Sociedad Colombiana de Filosofía"
+  city: "Barranquilla"
+  country: "Colombia"
+

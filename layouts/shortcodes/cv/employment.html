@@ -13,7 +13,7 @@
 
         <strong>{{ index .position site.Language.Lang }}</strong><br>
         <div class="mb-1">{{ .faculty }}</div>
-        {{ .info | safeHTML }}
+        {{ index .info site.Language.Lang | safeHTML }}
     </div>
 </div>
 

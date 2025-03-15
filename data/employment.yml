@@ -4,9 +4,13 @@
   start_date: 2022
   end_date: 2022
   institution: Universidad de los Andes
-  info: |
-    Curso: Estudios Culturales y América Latina (2022-2)<br>  
-    Profesor principal: Juan Ricardo Aparicio
+  info:
+    es: |
+      Curso: Estudios Culturales y América Latina (2022-2)<br>
+      Profesor principal: Juan Ricardo Aparicio
+    en: |
+      Course: Cultural Studies and Latin America (2022-2)<br>
+      Professor: Juan Ricardo Aparicio
 
 - position:
     en: Research assistant
@@ -19,7 +23,25 @@
 - position:
     en: Adjunct lecturer
     es: Profesora de hora cátedra
-  start_date: 2018
+  start_date: 2017
   end_date: 2022
   institution: Universidad del Rosario
   faculty: Escuela de Ciencias Humanas
+  info:
+    es: | 
+      Cursos: 
+      <ul class="list-disc ml-6">
+      <li>Lógica: 2018-I y II; 2019-I y II; 2020-I; 2022-1</li>
+      <li>Escritura académica: 2020-I</li>
+      <li>Fundamentos de ciencias sociales: 2019-II y 2020-I</li>
+      <li>Metodologías de investigación (profesora asistente): 2017-I</li>
+      </ul>
+    en: | 
+      Courses: 
+      <ul class="list-disc ml-6">
+      <li>Logic: 2018-I and II; 2019-I and II; 2020-I; 2022-1</li>
+      <li>Academic Writing: 2020-I</li>
+      <li>Foundations of Social Sciences: 2019-II and 2020-I</li>
+      <li>Research Methods (teaching assistant): 2017-I</li>
+      </ul>
+

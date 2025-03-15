@@ -1,24 +1,22 @@
-<div>
+    <div class="md:grid grid-cols-8 gap-x-4 gap-y-4">
     {{ range site.Data.talks }}
-    <div class="columns is-tablet">
-        <div class="column is-2-tablet is-1-widescreen mr-3">
+        <div class="col-span-1 mt-6 md:mt-0">
             {{ time.Format "01.2006" .date }}
         </div>
-        <div class="column">
+        <div class="col-span-7">
             <strong>{{ .title }}</strong><br>
+            <div class="text-base">
             {{ .conference }}<br>
-            <small>
                 {{ if .organizer }}{{ .organizer}} - {{ end }}
                 {{ if .institution }}{{ .institution }}{{ end }}
 
                 {{ if .url}}
                 <a href="{{ .url }}">(Online)</a>
                 {{ else }}
-                ({{ if i18n .city }}{{ i18n .city }}{{ else }}{{ .city }}{{end}},
-                {{ if i18n .country }}{{ i18n .country }}{{ else }}{{ .country }}{{ end }})
-                {{end}}</small>
+                ({{ if i18n .city }}{{ i18n .city }}{{ else }}{{ .city }}{{end}}{{ if .country }}{{ if i18n .country }}, {{ i18n .country }}{{ else }}, {{ .country }}{{ end }}{{ end }})
+                {{end}}
+            </div>
         </div>
+        {{ end }}
     </div>
 
-    {{ end }}
-</div>
