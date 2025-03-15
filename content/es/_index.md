@@ -6,7 +6,4 @@ weight: 1
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tellus sem, dignissim ut tempor rhoncus, rhoncus id dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet commodo imperdiet. Donec porta odio vitae odio ullamcorper varius. Donec ut fringilla felis. Sed eu vestibulum magna, quis cursus tortor. Fusce in pretium elit, pretium feugiat libero. Donec in rutrum erat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-
-Maecenas a facilisis justo. Nam mattis bibendum consectetur. Sed et sapien convallis felis vestibulum porttitor sed vel sem. Phasellus ultrices vitae augue in consequat. Aliquam sagittis libero in est feugiat ornare. Sed congue lacus non ante ultricies lacinia. Nam pretium felis a dui posuere, vel finibus nisi congue. Ut id lectus purus. Curabitur porta mi tellus, non faucibus leo posuere id. In hac habitasse platea dictumst. Fusce pellentesque mollis urna. Nulla viverra elit vel suscipit sodales.
-
+Soy doctora en filosofía de la Universidad de los Andes (Colombia) e hice mi pregrado y maestría en filosofía en la Universidad del Rosario (Colombia). Mis intereses de investigación incluyen la filosofía política y feminista de la ciencia, la historia y los estudios sociales de la ciencia, la relación entre ciencia y valores, y la epistemología social. En mi disertación me concentré en la relevancia epistémica y social de la diversidad geográfica para abordar los valores que permean la ciencia a nivel global, en las dimensiones geopolíticas de la producción de conocimiento científico y en desarrollar posibles estrategias para afrontar formas de opresión epistémica hacia comunidades científicas ubicadas en países de medio y bajo ingreso. 
