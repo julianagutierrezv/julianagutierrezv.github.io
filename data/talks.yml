@@ -1,3 +1,67 @@
+- date: 2025-03-11
+  title: "El nuevo problema de la demarcación y los retos para una filosofía de la ciencia cargada de valores"
+  conference: "Ciclo de conferencias en éticas aplicadas"
+  institution: "Pontificia Universidad Católica de Chile"
+  city: "Santiago"
+  country: "Chile"
+
+- date: 2024-11-14
+  title: "Rethinking geographic diversity in value-laden ideals of science"
+  conference: "Philosophy of Science Association 29th Biennial Meeting"
+  institution: "Philosophy of Science Association"
+  city: "New Orleans"
+  country: "United States"
+
+- date: 2024-11-11
+  title: "Ciencia, valores y las soluciones al nuevo problema de demarcación"
+  conference: "Workshop - Ciencia, Sociedad y Valores"
+  institution: "Universidad Alberto Hurtado"
+  city: "Santiago"
+  country: "Chile"
+
+- date: 2024-10-28 
+  title: "Philosophy of global science: A view from Latin America"
+  conference: "History of Science Society Annual Meeting (Virtual Festival) - Simposio Integrating History and Philosophy of Science in Latin America"
+  institution: "History of Science Society"
+  city: Online
+
+- date: 2024-09-18
+  title: "Ciencia, valores y el nuevo problema de la demarcación"
+  conference: "IX Congreso Colombiano de Filosofía - Simposio Ciencia, Valores y Desacuerdo"
+  institution: "Universidad Pedagógica y Tecnológica de Colombia"
+  organizer: "Sociedad Colombiana de Filosofía"
+  city: "Tunja"
+  country: "Colombia"
+
+- date: 2024-07-24
+  title: "Scientific creativity from the periphery: The Kangaroo Mother Care Method in Colombia (con Simone Fuica y Catalina Lince)"
+  conference: "XV Jornadas Latinoamericanas de Estudios Sociales de la Ciencia y Tecnología"
+  institution: "Asociación Latinoamericana de Estudios Sociales de la Ciencia y la Tecnología - ESOCITE"
+  city: "Campinas"
+  country: "Brasil"
+
+- date: 2023-12-06
+  title: "Tecnología y ciencia desde el Sur Global: El caso del Programa Madre Canguro (con Simone Fuica)"
+  conference: "IV Coloquio Nacional de Estudios Sociales de las Ciencias y las Tecnologías"
+  institution: "Universidad de los Andes"
+  city: "Bogotá"
+  country: "Colombia"
+
+- date: 2023-10-26
+  title: "Ciencia y diversidad: La relevancia de la dimensión geográfica"
+  conference: "IX Jornadas filosóficas: Disputas y violencias, respuestas desde la filosofía"
+  institution: "Universidad Industrial de Santander"
+  city: "Bucaramanga"
+  country: "Colombia"
+
+- date: 2023-07-25
+  title: "Diversity in Science and the Importance of Place"
+  conference: "17th International Congress on Logic, Methodology and Philosophy of Science and Technology (CLMPST) - Simposio Engaged Philosophy of Science"
+  institution: "Division of Logic, Methodology and Philosophy of Science and Technology of the International Union for History and Philosophy of Science and Technology (DLMPST/IUHPST)"
+  city: "Buenos Aires"
+  country: "Argentina"
+
+
 - date: 2023-06-16
   title: "The Need for a Geographically Situated Approach to Diversity in Science"
   conference: "Workshop - Promises and challenges of epistemic diversity in knowledge production practices"
