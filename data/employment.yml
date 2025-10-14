@@ -1,6 +1,22 @@
 - position:
     en: Teaching assistant
     es: Tutora académica
+  start_date: 2025
+  end_date: 2025
+  institution: Universidad de los Andes
+  info:
+    es: |
+      Curso: Los límites de la vida (2025-2)<br>
+      Profesores principales: Valeriano López Segura y Linda Alejandra Zuluaga Rodríguez<br>
+      Maestría en Bioética y Ética de la Investigación
+    en: |
+      Curso: "Limits of life"
+      Professors: Valeriano López Segura and Linda Alejandra Zuluaga Rodríguez
+      Master's in Bioethics and Research Ethics 
+      
+- position:
+    en: Teaching assistant
+    es: Tutora académica
   start_date: 2022
   end_date: 2022
   institution: Universidad de los Andes
