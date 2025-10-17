@@ -29,14 +29,14 @@ html {
 }
 
 hr {
-  background-color: #adadca;
+  background-color: hsl(28, 21%, 74%);
 }
 
 a {
-  color: #4f2b98;
+  color: hsl(28, 58%, 27%);
 }
 a:hover {
-  color: #9885bd;
+  color: hsl(28, 58%, 50%);
 }
 
 /*# sourceMappingURL=main.css.map */

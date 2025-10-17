@@ -1,15 +1,15 @@
 @use "partials/typography.scss";
 
 // Main colors
-$primary: #4f2b98;
-$accent: #9885bd  ;
+$primary: hsl(28, 58%, 27%);
+$accent: hsl(28, 58%, 50%);
 
 html {
   background-color: #ffffff;
 }
 
 hr {
-  background-color: #adadca;
+  background-color: hsl(28, 21%, 74%);
 }
 
 a {
