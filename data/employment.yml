@@ -20,6 +20,7 @@
   start_date: 2022
   end_date: 2022
   institution: Universidad de los Andes
+  faculty: Facultad de Ciencias Sociales
   info:
     es: |
       Curso: Estudios Culturales y América Latina (2022-2)<br>
@@ -35,6 +36,13 @@
   end_date: 2019
   institution: Universidad del Rosario
   faculty: Escuela de Ciencias Humanas
+  info:
+    es: | 
+      Proyecto: "La pirámide visual: Evolución de un instrumento conceptual"
+      PI: Carlos Alberto Cardona Suárez
+    en: | 
+      Project: "The Visual Pyramid: The Evolution of a Conceptual Instrument"
+      PI: Carlos Alberto Cardona Suárez
 
 - position:
     en: Adjunct lecturer
