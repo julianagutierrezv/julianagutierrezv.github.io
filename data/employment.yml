@@ -1,9 +1,44 @@
+- position: 
+    en: Adjunct lecturer
+    es: Profesora de cátedra
+  start_date: 2026
+  end_date: 2026
+  institution: Universidad de los Andes
+  faculty: Facultad de Ciencias Sociales
+  info:
+    es: |
+      Curso: Diversidad, pluralismo y objetividad en Ciencia<br>
+      Maestría en Filosofía
+    en: |
+      Curso: Diversity, Pluralism, and Objectivity in Science<br>
+      Master in Philosophy
+      
+
+- position: 
+    en: Teaching assistant
+    es: Tutora académica
+  start_date: 2026
+  end_date: 2026
+  institution: Universidad de los Andes
+  faculty: Facultad de Medicina
+  info: 
+    es: |
+      Curso: Sostenibilidad ambiental y cambio climático (2026-1)<br>
+      Profesora principal: Manuela Fernández Pinto<br>
+      Maestría en Bioética y Ética de la investigación
+    en: |
+      Course: Environmental Sustainability and Climate Change<br>
+      Professor: Manuela Fernández Pinto<br>
+      Master in Bioethics and Research Ethics
+
+    
 - position:
     en: Teaching assistant
     es: Tutora académica
   start_date: 2025
   end_date: 2025
   institution: Universidad de los Andes
+  faculty: Facultad de Medicina
   info:
     es: |
       Curso: Los límites de la vida (2025-2)<br>
@@ -12,7 +47,7 @@
     en: |
       Course: "Limits of life"<br>
       Professors: Valeriano López Segura and Linda Alejandra Zuluaga Rodríguez<br>
-      Master of Bioethics and Research Ethics 
+      Master in Bioethics and Research Ethics 
 
 - position:
     en: Teaching assistant
